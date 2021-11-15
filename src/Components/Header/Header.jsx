@@ -8,11 +8,11 @@ const Header = () => {
  return (
  
   <Container className="bg-color">
-   <Row >
-    <Col md={1} className="mt-4" >
-     <Image src={Logo} fluid></Image>
+   <Row className="mt-3 ">
+    <Col className="col-1" >
+     <Image src={Logo} fluid ></Image>
     </Col>
-    <Col md={11} className="d-flex align-items-center justify-content-end mt-2" >
+    <Col className="d-flex align-items-center justify-content-end col-11 " >
           <Nav activeKey="/home">
         <Nav.Item className="me-2" > 
           <Nav.Link href="/home" className="nav-item-color">خانه</Nav.Link>

@@ -7,11 +7,11 @@ const HeroSection = () => {
   <div className="hero-section">
    <Container  className="d-flex h-100 flex-column">
     <Row ><Header/></Row>
-    <Row className="d-flex flex-grow-1 justify-content-center align-items-center">
-     sadasd
+    <Row className="d-flex flex-grow-1 justify-content-center align-items-center ">
+     <Col className="bg-danger col-8"> col 1</Col>
+     <Col className="bg-primary col-4">col 2</Col>
     </Row>
   </Container>
-
   </div>
   
  )
