@@ -7,12 +7,12 @@ import './Header.css'
 const Header = () => {
  return (
  
-  <Container className="p-2 bg-color">
+  <Container className="bg-color">
    <Row >
-    <Col md={1} >
+    <Col md={1} className="mt-4" >
      <Image src={Logo} fluid></Image>
     </Col>
-    <Col md={11} className="d-flex align-items-center justify-content-end" >
+    <Col md={11} className="d-flex align-items-center justify-content-end mt-2" >
           <Nav activeKey="/home">
         <Nav.Item className="me-2" > 
           <Nav.Link href="/home" className="nav-item-color">خانه</Nav.Link>

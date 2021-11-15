@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './Components/Header/Header'
 import { Container } from 'react-bootstrap'
+import HeroSection from './Components/HeroSection/HeroSection'
 function App() {
 	return (
-		<Container fluid>
-			<Header />
+		<Container fluid className="full-width">
+			<HeroSection />
 		</Container>
 	)
 }
