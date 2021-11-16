@@ -1,4 +1,8 @@
 .hero-section {
 	height: 100vh;
-	background-color: grey;
+	background-image: url('../../assets/Images/hero-section-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #03045e;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 }

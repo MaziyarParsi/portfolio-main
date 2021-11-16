@@ -1,6 +1,6 @@
 import './App.css'
 import { Container } from 'react-bootstrap'
-import HeroSection from './Components/HeroSection/HeroSection'
+import HeroSection from './Components/heroSection/HeroSection'
 function App() {
 	return (
 		<Container fluid className="full-width">

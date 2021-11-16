@@ -1,15 +1,34 @@
 import React from 'react'
 import { Container, Row,Col} from 'react-bootstrap'
-import Header from '../Header/Header'
+import Lottie from 'lottie-react'
+import hackingCoder from '../../assets/Images/Lottie/hacker-thinking-about-code.json'
+import Header from '../header/Header'
 import './HeroSection.css'
+import Typical from 'react-typical'
+
 const HeroSection = () => {
  return (
   <div className="hero-section">
    <Container  className="d-flex h-100 flex-column">
-    <Row ><Header/></Row>
+    <Header />
     <Row className="d-flex flex-grow-1 justify-content-center align-items-center ">
-     <Col className="bg-danger col-8"> col 1</Col>
-     <Col className="bg-primary col-4">col 2</Col>
+     <Col className="col-6 ">
+       <div className="me-4">
+            <p className="text-white">سلام، به سایت شخصی من خوش اومدین. اسم من</p>
+            <h1 className="text-white my-4 fw-bold">مازیار پارسی</h1>
+            <h5 className="text-white "> و کار من {''}
+            <Typical className="text-primary" loop={Infinity} wrapper='ا' steps={
+              [
+                'برنامه نویس فرانت اند',1000,
+                'طراح وردپرس',1000,
+                'طراح رابط کاربری',1000,
+
+              ]
+            }  />
+            </h5>
+        </div>
+     </Col>
+     <Col className=" col-6" > <Lottie animationData={hackingCoder} /></Col>
     </Row>
   </Container>
   </div>
