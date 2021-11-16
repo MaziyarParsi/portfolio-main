@@ -9,7 +9,7 @@ import Typical from 'react-typical'
 const HeroSection = () => {
  return (
   <div className="hero-section">
-   <Container  className="d-flex h-100 flex-column">
+   <Container  className="d-flex  flex-column">
     <Header />
     <Row className="d-flex flex-grow-1 justify-content-center align-items-center ">
      <Col className="col-6 ">

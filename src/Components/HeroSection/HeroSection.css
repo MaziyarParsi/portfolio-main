@@ -1,5 +1,7 @@
 .hero-section {
-	height: 100vh;
+	position: relative;
+	height: 95vh;
+	width: 100vw;
 	background-image: url('../../assets/Images/hero-section-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;

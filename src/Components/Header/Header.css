@@ -1,6 +1,9 @@
 .nav-item-color {
 	color: white !important;
 }
+.nav-item-color:hover {
+	color: #1a759f !important;
+}
 .bg-color {
 	background-color: transparent;
 }
