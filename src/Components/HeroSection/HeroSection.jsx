@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Row,Col} from 'react-bootstrap'
 import Lottie from 'lottie-react'
 import hackingCoder from '../../assets/Images/Lottie/hacker-thinking-about-code.json'
-import Header from '../header/Header'
 import './HeroSection.css'
 import Typical from 'react-typical'
 

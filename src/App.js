@@ -1,12 +1,13 @@
 import './App.css'
 import { Container } from 'react-bootstrap'
-import HeroSection from './Components/heroSection/HeroSection'
-import Header from './Components/header/Header'
+import { AboutMe, Header, HeroSection } from './Components'
+
 function App() {
 	return (
 		<Container fluid className="full-width">
 			<Header />
 			<HeroSection />
+			<AboutMe />
 		</Container>
 	)
 }

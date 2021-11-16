@@ -1,0 +1,38 @@
+.about-me-section {
+	background-color: #f2f2f2;
+}
+h2.title {
+	position: relative;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	padding-bottom: 32px;
+}
+h2.title::before {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 280px;
+	height: 2px;
+	background: #111;
+	transform: translateX(-50%);
+	border-radius: 10px;
+}
+h2.title::after {
+	content: 'من کی هستم؟';
+	bottom: -14px;
+	position: absolute;
+	left: 50%;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 1px 2rem;
+	background: #f2f2f2;
+	color: #0077b6;
+	transform: translateX(-50%);
+}
+.typical-text {
+	color: #0077b6;
+	margin-right: 8px;
+}
