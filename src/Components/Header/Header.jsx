@@ -6,31 +6,32 @@ import './Header.css'
 
 const Header = () => {
  return (
- 
-  <Container className="bg-color">
-   <Row className="mt-3  ">
-    <Col className="d-flex align-items-center justify-content-start col-11  " >
-          <Nav activeKey="/home">
-        <Nav.Item className="me-2" >
-          <Nav.Link eventKey="link-2" className="nav-item-color">مهارت ها</Nav.Link>
-        </Nav.Item>
-        <Nav.Item className="me-2">
-          <Nav.Link eventKey="link-2" className="nav-item-color">خدمات</Nav.Link>
-        </Nav.Item>
-        <Nav.Item className="me-2 ">
-          <Nav.Link eventKey="link-1" className="nav-item-color">درباره من</Nav.Link>
-        </Nav.Item >
-        <Nav.Item className="" > 
-          <Nav.Link href="" className="nav-item-color">خانه</Nav.Link>
-        </Nav.Item>
-      </Nav>
-    </Col>
-    <Col className="col-1" >
-     <Image src={Logo} fluid ></Image>
-    </Col>
-  </Row>
-  
-  </Container>
+ <div className="header-container  "> 
+      <Container >
+      <Row  >
+        <Col className="d-flex align-items-center justify-content-start col-11  " >
+              <Nav activeKey="/home">
+            <Nav.Item className="me-2" >
+              <Nav.Link eventKey="link-2" className="nav-item-color">مهارت ها</Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="me-2">
+              <Nav.Link eventKey="link-2" className="nav-item-color">خدمات</Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="me-2 ">
+              <Nav.Link eventKey="link-1" className="nav-item-color">درباره من</Nav.Link>
+            </Nav.Item >
+            <Nav.Item className="" > 
+              <Nav.Link href="" className="nav-item-color">خانه</Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
+        <Col className="col-1" >
+        <Image src={Logo} fluid ></Image>
+        </Col>
+      </Row>
+      
+      </Container>
+  </div>
 
  )
 }

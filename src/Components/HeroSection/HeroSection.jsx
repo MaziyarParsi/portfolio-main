@@ -8,10 +8,9 @@ import Typical from 'react-typical'
 
 const HeroSection = () => {
  return (
-  <div className="hero-section">
-   <Container  className="d-flex  flex-column">
-    <Header />
-    <Row className="d-flex flex-grow-1 justify-content-center align-items-center ">
+  <div className="hero-section ">
+   <Container  className="d-flex flex-column ">
+    <Row className="d-flex flex-grow-1 justify-content-center align-items-center pt-5">
      <Col className="col-6 ">
        <div className="me-4">
             <p className="text-white">سلام، به سایت شخصی من خوش اومدین. اسم من</p>
@@ -28,7 +27,7 @@ const HeroSection = () => {
             </h5>
         </div>
      </Col>
-     <Col className=" col-6" > <Lottie animationData={hackingCoder} /></Col>
+     <Col className=" col-6 " > <Lottie animationData={hackingCoder} /></Col>
     </Row>
   </Container>
   </div>
