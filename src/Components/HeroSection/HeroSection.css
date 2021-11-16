@@ -1,5 +1,4 @@
 .hero-section {
-	position: relative;
 	height: 100vh;
 	width: 100vw;
 	background-image: url('../../assets/Images/hero-section-bg.png');
@@ -8,14 +7,15 @@
 	background-color: #03045e;
 	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 }
+
 .hero-section::before {
 	content: '';
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 250px;
-	background-image: url('../../assets/Images/wave.png');
+	height: 11.5rem;
+	background-image: url('../../assets/Images/wave.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
