@@ -1,5 +1,7 @@
 .nav-item-color {
 	color: white !important;
+	font-size: 18px;
+	font-weight: 400;
 }
 .nav-item-color:hover {
 	color: #1a759f !important;
