@@ -1,6 +1,6 @@
 import './App.css'
 import { Container } from 'react-bootstrap'
-import { AboutMe, Header, HeroSection, MyServices } from './Components'
+import { AboutMe, Header, HeroSection, MyServices, ContactMe } from './Components'
 
 function App() {
 	return (
@@ -9,6 +9,7 @@ function App() {
 			<HeroSection />
 			<AboutMe />
 			<MyServices />
+			<ContactMe />
 		</Container>
 	)
 }

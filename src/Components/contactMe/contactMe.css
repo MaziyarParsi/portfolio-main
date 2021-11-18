@@ -1,0 +1,37 @@
+.contact-me-bg {
+	background-color: #f2f2f2;
+	position: relative;
+	height: 100vh;
+}
+.contact-me-title {
+	position: relative;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	padding-bottom: 32px;
+}
+.contact-me-title::before {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 280px;
+	height: 2px;
+	background: #111;
+	transform: translateX(-50%);
+	border-radius: 10px;
+}
+.contact-me-title::after {
+	content: 'راه های ارتباطی با من';
+	bottom: -0.5rem;
+	position: absolute;
+	width: 10rem;
+	left: 50%;
+	font-size: 16px;
+	font-weight: 600;
+	padding: -2rem -2rem;
+	background: #f2f2f2;
+	color: #0077b6;
+	transform: translateX(-50%);
+}
