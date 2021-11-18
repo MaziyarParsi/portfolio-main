@@ -18,14 +18,20 @@ const ContactMe = () => {
      <p>برای ارتباط با من میتونین روی لینک های زیر کلیک کنید تا بتونیم با همدیگه صحبت کنیم</p>
      <Row >
       <Col className="d-flex justify-content-center ">
+       <a href="https://www.instagram.com/maziarparc/">
       <Instagram size={28} ></Instagram>
-     <Telegram size={28} className="mx-2"></Telegram>
+       </a>
+       <a href="https://t.me/Maziarparc">
+       <Telegram size={28} className="mx-2"></Telegram>
+        </a>
+     <a href="https://twitter.com/MaziyarParsi">
      <Twitter size={28}></Twitter>
+     </a>
      </Col>
      </Row>
      </Col>
      <Col className="">
-     <Lottie animationData={Contact} />
+     <Lottie animationData={Contact}  />
      </Col>
     </Row>
    </Container>
