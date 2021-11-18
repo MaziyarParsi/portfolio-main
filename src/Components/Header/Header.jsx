@@ -15,7 +15,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="ml-auto "  >
                 <Nav.Link className="nav-item-color me-4" href="#home">خانه</Nav.Link>
-                <Nav.Link className="nav-item-color me-4"  href="#link">درباه من</Nav.Link>
+                <Nav.Link className="nav-item-color me-4"  href="#aboutMe">درباه من</Nav.Link>
                 <Nav.Link className="nav-item-color me-4"  href="#home">خدمات</Nav.Link>
                 <Nav.Link className="nav-item-color me-4"  href="#link">مهارت ها</Nav.Link>
               </Nav>

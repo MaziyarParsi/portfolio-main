@@ -1,0 +1,30 @@
+.icon-holder {
+	display: flex;
+	flex-direction: row;
+}
+
+a.icon-link {
+	color: #212529;
+	transition: color 0.2s ease-in-out;
+}
+a.icon-link:hover {
+	color: royalblue;
+}
+.icon-line {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	width: 60%;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+
+@media (max-width: 770px) {
+	.icon-line {
+		display: none;
+	}
+	.icon-holder {
+		flex-direction: column;
+	}
+}

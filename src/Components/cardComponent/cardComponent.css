@@ -1,0 +1,13 @@
+.card-bg {
+	background-color: #1d3557 !important;
+}
+.card-bg:hover {
+	box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15) !important;
+	scale: 1.2 !important;
+}
+.card-text-color {
+	color: rgb(223, 223, 223);
+}
+.card-text-body {
+	font-weight: 400;
+}

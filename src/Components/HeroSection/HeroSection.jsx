@@ -13,7 +13,7 @@ const HeroSection = () => {
      <Col className="col-6 ">
        <div className="me-4">
             <p className="text-white">سلام، به سایت شخصی من خوش اومدین. اسم من</p>
-            <h1 className="text-white my-4 fw-bold">مازیار پارسی</h1>
+            <h1 className="text-white display-4 my-4 fw-bold">مازیار پارسی</h1>
             <h5 className="text-white "> و کار من {''}
             <Typical className="text-primary" loop={Infinity} wrapper='ا' steps={
               [
